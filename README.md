@@ -2,6 +2,8 @@
 
 GitHub action for GitHub App authentication. It generates an auth token from app's private key to be used in some another workflow's step.
 
+> There already exists public action for this scenario. The reason for this action is I don't consider safe to send private key of the app to some external code which I don't control.
+
 ## Usage
 
 Put `topmonks/app-auth-action@<VERSION>` into `uses` key of the step.
